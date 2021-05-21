@@ -1,0 +1,30 @@
+.table{
+    margin-top: 20px;
+    overflow-y: scroll;
+    height: 40vh;
+    background-color: white;
+    color: rgb(248, 69, 69);
+
+}
+.table::-webkit-scrollbar{
+    display: none;
+}
+.table:hover::-webkit-scrollbar{
+    display: block;
+      width: 5px;
+}
+.table:hover::-webkit-scrollbar-thumb{
+    background-color: gray;
+    border-radius: 5px;
+}
+.table tr{
+    display: flex;
+    justify-content: space-between;
+    font-size: small;
+}
+.table td{
+    padding: 0.7rem;
+}
+.table tr:nth-of-type(odd){
+    background-color: rgba(211, 211, 211, 0.233);
+}
